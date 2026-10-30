@@ -1,0 +1,12 @@
+{
+  "app_python": "",
+  "comfy_url": "auto",
+  "comfy_root": "",
+  "comfy_python": "",
+  "comfy_port": 8188,
+  "auto_start": true,
+  "comfy_args": [],
+  "extra_model_paths": [],
+  "input_dir": "",
+  "output_dir": ""
+}

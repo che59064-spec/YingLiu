@@ -1,0 +1,94 @@
+{
+  "version": "2026-10-26",
+  "profiles": {
+    "h3_ref": {
+      "label": "MiniMax H3 · 人物、图片与动作参考",
+      "sources": [
+        {
+          "title": "MiniMax H3 官方参考生成指南",
+          "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/ref-en.txt"
+        }
+      ],
+      "instructions": [
+        "Preserve the user's requested subjects, actions, counts, relationships, setting, and duration. Flag unresolved conflicts instead of silently changing intent.",
+        "Write six English sections in this order: subject_definitions, summary, retention_analysis, detailed_description, overall_soundscape, non_diegetic_music.",
+        "Use the supplied reference order exactly. Keep <Picture N>, <Video N>, <Audio N>, and <Subject N> labels consistent; never cite absent inputs.",
+        "Define reusable subjects through their source assets. Treat two views as the same character only when the user or verified context establishes that relationship.",
+        "Explicitly separate appearance, motion, background, and audio roles. For requested character replacement, preserve identity from the specified images and take only the requested motion or timing from video.",
+        "State what each reference preserves or transfers. Do not promise identity locking or exact pose reproduction.",
+        "Describe observable changes in playback order within the configured duration. Develop reference-generation scenes in roughly 350-500 English words; editing detail follows task complexity. Keep shot and speaker identifiers stable.",
+        "Keep requested dialogue, lyrics, and visible text verbatim in their original language. Distinguish reused audio from newly generated sound.",
+        "Never invent reference appearance, actions, voices, or scene details that were not supplied or visually inspected. Report missing information separately."
+      ]
+    },
+    "h3_base": {
+      "label": "MiniMax H3 · 文字、首帧与首尾帧视频",
+      "sources": [
+        {
+          "title": "MiniMax H3 官方基础视频指南",
+          "url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/skills/h3-prompt-writing/references/base-en.txt"
+        }
+      ],
+      "instructions": [
+        "Keep the user's subjects, actions, visual style, spoken words, duration, and framing constraints intact; flag contradictions or missing essentials.",
+        "Write English descriptive prose using integrated_multimodal_description, overall_soundscape, and non_diegetic_music, in that order.",
+        "For text-only generation, begin with the three sections. Do not invent image-reference labels.",
+        "For first-frame, final-frame, or first-and-final-frame modes, put the applicable picture-to-time alignment instruction first, then describe a continuous path from or toward those anchors. For first-frame mode, the first line is: For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.",
+        "Use the actual supplied duration for final-frame timing. Keep picture numbering tied to the real connected input order.",
+        "Describe composition, subjects, setting, actions, camera movement, and synchronized sound in playback order. Avoid unnecessary cuts.",
+        "Start with [Shot 1]; timestamp only later cuts and keep them inside the requested duration. Speaker identifiers remain stable across shots.",
+        "Preserve dialogue and lyrics verbatim inside language-tagged <d> blocks. Quote visible scene text exactly, without translation.",
+        "Separate physical ambience from audience-only music. Use N/A for background music when absent; complete silence must follow the user's request.",
+        "Do not claim to have inspected an unavailable image or fabricate its appearance; describe the anchor by reference and surface the uncertainty separately."
+      ]
+    },
+    "qwen_image": {
+      "label": "千问 Qwen-Image-2.1 · 文字生图",
+      "sources": [
+        {
+          "title": "千问图像 2.1 官方文生图规范",
+          "url": "https://github.com/QwenLM/Qwen-Image-2.1/blob/main/prompt_rewrite/prompts/system_prompt_t2i.txt"
+        },
+        {
+          "title": "千问图像 2.1 官方改写工具说明",
+          "url": "https://github.com/QwenLM/Qwen-Image-2.1/blob/main/prompt_rewrite/README.md"
+        }
+      ],
+      "instructions": [
+        "Use the Qwen-Image-2.1 text-to-image profile, not a chat-model or image-editing prompt.",
+        "Write an English description of the finished image, normally one developed paragraph of approximately 400-500 words, shorter for a quiet single subject. Use present-tense observations instead of instructions to a renderer.",
+        "Preserve every user-fixed subject, count, color, position, aspect ratio, and literal text. Do not reinterpret a named brand or exact wording.",
+        "Establish medium, visual style, subject, and background; then place the requested elements coherently through the frame. Include concrete materials and lighting.",
+        "Organize complex compositions spatially; do not add decorative text or unrelated objects merely to make a sparse request longer.",
+        "Put every intended readable string in straight double quotes and retain its original script, punctuation, spacing, and capitalization.",
+        "Keep aspect ratio and resolution outside the image-description prose. Preserve the configured canvas rather than silently changing generation parameters.",
+        "Replace vague quality slogans with visible photographic or design properties. Do not turn workflow instructions into objects or printed text.",
+        "Reference images require the edit profile. Never claim visual knowledge from a filename; flag missing image context or conflicting requirements separately."
+      ]
+    },
+    "qwen_edit": {
+      "label": "千问 Qwen-Image-2.1 · 图片编辑与多图参考",
+      "sources": [
+        {
+          "title": "千问图像 2.1 官方图片编辑规范",
+          "url": "https://github.com/QwenLM/Qwen-Image-2.1/blob/main/prompt_rewrite/prompts/system_prompt_edit.txt"
+        },
+        {
+          "title": "千问图像 2.1 官方改写工具说明",
+          "url": "https://github.com/QwenLM/Qwen-Image-2.1/blob/main/prompt_rewrite/README.md"
+        }
+      ],
+      "instructions": [
+        "An actual source image is required. Preserve the user's operation and intended strength; clarify the requested edit without adding unrelated corrections.",
+        "Write descriptive instructions in Chinese for Chinese input, English for English input, and English for other input languages.",
+        "Begin with the edit operation. Specify which object or region changes, the requested outcome, and what remains unchanged.",
+        "Preserve identity, product markings, counts, rendering medium, and untargeted content unless explicitly changed. Point to reference images instead of verbally redesigning an identity.",
+        "For multiple images, use <image1>, <image2>, and subsequent labels in the actual supplied order, with each image's role stated. For a single image, refer naturally to the image without numbered tags.",
+        "Quote exact output text. Its language follows explicit user wording first, otherwise existing image text, otherwise the user's language. Do not add bilingual duplicates unless requested.",
+        "Keep local edits focused; develop composition and lighting only when the user requests a new scene or design from the supplied subject.",
+        "For canvas extension, explicitly name outpainting. Keep the source canvas ratio unless a new composition or ratio was requested; report changes separately from prompt prose.",
+        "Never invent unseen image details or silently resolve an important ambiguity. Report missing source images, uncertain identities, or contradictory edits for review."
+      ]
+    }
+  }
+}

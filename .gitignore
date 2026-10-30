@@ -1,0 +1,17 @@
+data/
+config.json
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+runtime/
+dist/
+release/
+*.exe
+*.dll
+*.nupkg
+qa/*
+!qa/BuildBrandAssets.cs

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="tile" x1="24" y1="12" x2="218" y2="244" gradientUnits="userSpaceOnUse"><stop stop-color="#41424c"/><stop offset="1" stop-color="#111218"/></linearGradient>
+    <linearGradient id="front" x1="106" y1="111" x2="201" y2="202" gradientUnits="userSpaceOnUse"><stop stop-color="#434550"/><stop offset="1" stop-color="#22242c"/></linearGradient>
+    <linearGradient id="light" x1="128" y1="12" x2="128" y2="150" gradientUnits="userSpaceOnUse"><stop stop-color="#fff" stop-opacity=".13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="rim"><rect x="12" y="12" width="232" height="232" rx="60"/></clipPath>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="60" fill="url(#tile)" stroke="#e1e4f0" stroke-opacity=".61" stroke-width="1.4"/>
+  <ellipse cx="117" cy="47" rx="148" ry="103" fill="url(#light)" clip-path="url(#rim)"/>
+  <rect x="49" y="61" width="108" height="91" rx="21" fill="#f0f3ff" fill-opacity=".086" stroke="#dfe5ee" stroke-width="10"/>
+  <rect x="99" y="111" width="108" height="91" rx="21" fill="url(#front)" stroke="#f8f9ff" stroke-width="10"/>
+</svg>

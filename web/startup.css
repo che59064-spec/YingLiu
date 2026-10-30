@@ -1,0 +1,12 @@
+#startup-layer { position:fixed; inset:0; z-index:1000; isolation:isolate; overflow:hidden; cursor:default; }
+#startup-layer[hidden] { display:none; }
+.startup-wash { position:absolute; inset:0; background:var(--bg); }
+.startup-symbol { position:absolute; left:50%; top:44%; width:112px; height:112px; transform:translate(-50%,-50%); transform-origin:center; }
+.startup-symbol img { display:block; width:100%; height:100%; }
+.startup-caption { position:absolute; left:50%; top:calc(44% + 76px); width:min(540px,calc(100% - 40px)); transform:translateX(-50%); text-align:center; color:var(--ink); }
+.startup-caption strong { display:block; font-size:26px; font-weight:700; line-height:40px; }
+.startup-caption p { margin:10px 0 0; font-size:14px; line-height:1.55; overflow-wrap:anywhere; }
+html[data-startup="pending"] body>.topbar,html[data-startup="pending"] body>.workspace,
+html[data-startup="error"] body>.topbar,html[data-startup="error"] body>.workspace { visibility:hidden; }
+html[data-startup] .brand-mark { visibility:hidden; }
+@media (forced-colors:active) { .startup-wash { background:Canvas; } .startup-caption { color:CanvasText; } }

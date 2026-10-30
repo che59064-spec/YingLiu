@@ -1,0 +1,2 @@
+# Python 3.10+; the canvas backend uses only the Python standard library.
+# ComfyUI and its custom-node/model dependencies are installed separately.

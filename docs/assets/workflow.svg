@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">映流创作流程示意图</title>
+  <desc id="desc">将工作流和素材放入画布，由 ComfyUI 执行，作品回到画布继续使用。</desc>
+  <rect width="1200" height="360" rx="28" fill="#f2f3f7"/>
+  <g fill="none" stroke="#9ba4b5" stroke-width="3" stroke-linecap="round">
+    <path d="M260 180H330"/><path d="M560 180H630"/><path d="M860 180H930"/>
+    <path d="m318 172 12 8-12 8m300-16 12 8-12 8m300-16 12 8-12 8"/>
+  </g>
+  <g fill="#fff" stroke="#d7dbe4" stroke-width="2">
+    <rect x="30" y="93" width="230" height="174" rx="22"/>
+    <rect x="330" y="93" width="230" height="174" rx="22"/>
+    <rect x="630" y="93" width="230" height="174" rx="22"/>
+    <rect x="930" y="93" width="240" height="174" rx="22"/>
+  </g>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle">
+    <g font-size="15" fill="#697386"><text x="145" y="135">01</text><text x="445" y="135">02</text><text x="745" y="135">03</text><text x="1050" y="135">04</text></g>
+    <g font-size="25" font-weight="700" fill="#222939"><text x="145" y="179">导入工作流</text><text x="445" y="179">连接素材</text><text x="745" y="179">本机生成</text><text x="1050" y="179">保存与接续</text></g>
+    <g font-size="15" fill="#697386"><text x="145" y="220">保留完整专业节点</text><text x="445" y="220">图片、视频与参数</text><text x="745" y="220">ComfyUI 执行</text><text x="1050" y="220">作品回到画布</text></g>
+  </g>
+</svg>
