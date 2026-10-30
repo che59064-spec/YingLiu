@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+ <title id="title">动作分段与接续</title><desc id="desc">第一段使用零到五秒动作，第二段使用五到十秒动作，上一段末帧引导下一段开头。</desc>
+ <rect width="1200" height="400" rx="28" fill="#f2f4f8"/>
+ <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <text x="65" y="65" fill="#273143" font-size="26" font-weight="700">在同一画布中继续生成</text>
+  <text x="65" y="100" fill="#6f7b8e" font-size="19">保留人物参考与动作视频，手动选择下一段的时间范围</text>
+  <rect x="65" y="135" width="515" height="112" rx="20" fill="#fff" stroke="#d6deea" stroke-width="2"/>
+  <rect x="620" y="135" width="515" height="112" rx="20" fill="#fff" stroke="#d6deea" stroke-width="2"/>
+  <text x="95" y="178" fill="#273143" font-size="23" font-weight="700">第一段：0–5 秒</text><text x="95" y="215" fill="#6f7b8e" font-size="18">生成并保留第一段作品</text>
+  <text x="650" y="178" fill="#273143" font-size="23" font-weight="700">第二段：5–10 秒</text><text x="650" y="215" fill="#6f7b8e" font-size="18">选择第一段作为“接续上一段”</text>
+  <path d="M535 275H665" stroke="#72839c" stroke-width="3" marker-end="url(#a)"/><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#72839c"/></marker></defs>
+  <text x="600" y="314" text-anchor="middle" fill="#485b75" font-size="19">上一段末帧 → 引导下一段开头</text>
+  <text x="600" y="356" text-anchor="middle" fill="#7b8697" font-size="17">适用于支持接续的 H3 工作流；实际接缝与音频需自行检查</text>
+ </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+ <title id="title">在画布中拼接视频</title><desc id="desc">将多段视频连接到视频拼接节点，调整顺序与截取范围后生成新作品。</desc>
+ <rect width="1200" height="360" rx="28" fill="#f2f4f8"/>
+ <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <text x="60" y="55" fill="#273143" font-size="25" font-weight="700">多段视频 → 拼接节点 → 新作品</text>
+  <g fill="#fff" stroke="#d6deea" stroke-width="2"><rect x="60" y="93" width="235" height="72" rx="17"/><rect x="60" y="205" width="235" height="72" rx="17"/><rect x="438" y="117" width="310" height="135" rx="20"/><rect x="890" y="146" width="250" height="80" rx="18"/></g>
+  <g fill="none" stroke="#8795aa" stroke-width="3"><path d="M295 129 C370 129 380 168 438 175"/><path d="M295 241 C370 241 380 201 438 195"/><path d="M748 185H890"/></g>
+  <g text-anchor="middle"><text x="177" y="139" fill="#273143" font-size="22">视频片段 1</text><text x="177" y="251" fill="#273143" font-size="22">视频片段 2</text><text x="593" y="173" fill="#273143" font-size="24" font-weight="700">视频拼接</text><text x="593" y="212" fill="#6f7b8e" font-size="18">调整顺序和截取范围</text><text x="1015" y="194" fill="#273143" font-size="22">拼接后的作品</text></g>
+  <text x="600" y="320" text-anchor="middle" fill="#748096" font-size="18">双击画布创建拼接节点 · 将片段连入后点击拼接</text>
+ </g>
+</svg>

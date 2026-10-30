@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+ <title id="title">AI 提示词优化</title><desc id="desc">使用自己配置的 AI 服务优化描述，可选择发送连接的图片和视频抽帧，检查结果和中文对照后再采用。</desc>
+ <rect width="1200" height="360" rx="28" fill="#f2f4f8"/>
+ <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <text x="60" y="60" fill="#273143" font-size="25" font-weight="700">用自己的 AI 优化提示词</text>
+  <g fill="#fff" stroke="#d6deea" stroke-width="2"><rect x="60" y="105" width="300" height="164" rx="20"/><rect x="450" y="105" width="300" height="164" rx="20"/><rect x="840" y="105" width="300" height="164" rx="20"/></g>
+  <g stroke="#8795aa" stroke-width="3" fill="none"><path d="M360 186H450"/><path d="M750 186H840"/></g>
+  <g text-anchor="middle"><text x="210" y="155" fill="#273143" font-size="23" font-weight="700">输入描述</text><text x="210" y="197" fill="#6f7b8e" font-size="18">可选图片与视频抽帧</text><text x="600" y="155" fill="#273143" font-size="23" font-weight="700">调用所选 AI</text><text x="600" y="197" fill="#6f7b8e" font-size="18">使用自己配置的接口</text><text x="990" y="155" fill="#273143" font-size="23" font-weight="700">检查并采用</text><text x="990" y="197" fill="#6f7b8e" font-size="18">查看提示词和中文对照</text></g>
+  <text x="600" y="320" text-anchor="middle" fill="#748096" font-size="18">只有点击“采用”才会替换原文；参考素材按所选设置发送</text>
+ </g>
+</svg>

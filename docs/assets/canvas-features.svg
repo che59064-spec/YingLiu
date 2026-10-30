@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+ <title id="title">多画布与卡片连线</title><desc id="desc">在不同画布中分别管理项目，在同一画布用连线连接素材、工作流与作品。</desc>
+ <rect width="1200" height="400" rx="28" fill="#f2f4f8"/>
+ <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <rect x="32" y="28" width="1136" height="344" rx="22" fill="#fff" stroke="#d8dee9" stroke-width="2"/>
+  <rect x="60" y="48" width="146" height="48" rx="16" fill="#252c3b"/><text x="133" y="79" text-anchor="middle" fill="#fff" font-size="21">画布 A</text>
+  <rect x="216" y="48" width="146" height="48" rx="16" fill="#eef1f6"/><text x="289" y="79" text-anchor="middle" fill="#4b566b" font-size="21">画布 B</text>
+  <rect x="372" y="48" width="48" height="48" rx="16" fill="#eef1f6"/><text x="396" y="80" text-anchor="middle" fill="#4b566b" font-size="27">+</text>
+  <text x="1120" y="78" text-anchor="end" fill="#748096" font-size="19">新建 · 切换 · 重命名</text>
+  <path d="M295 225 H405 M665 225 H775" stroke="#8795aa" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#fff" stroke="#ccd5e3" stroke-width="2"><rect x="80" y="145" width="215" height="154" rx="20"/><rect x="405" y="145" width="260" height="154" rx="20"/><rect x="775" y="145" width="320" height="154" rx="20"/></g>
+  <g text-anchor="middle"><text x="187" y="199" font-size="24" font-weight="700" fill="#222b3a">图片 / 视频</text><text x="187" y="242" font-size="18" fill="#748096">拖入画布</text><text x="535" y="199" font-size="24" font-weight="700" fill="#222b3a">工作流卡片</text><text x="535" y="242" font-size="18" fill="#748096">调整参数 · 开始生成</text><text x="935" y="199" font-size="24" font-weight="700" fill="#222b3a">生成作品</text><text x="935" y="242" font-size="18" fill="#748096">保留 · 收纳 · 再次使用</text></g>
+  <g fill="#fff" stroke="#8795aa" stroke-width="3"><circle cx="295" cy="225" r="8"/><circle cx="405" cy="225" r="8"/><circle cx="665" cy="225" r="8"/><circle cx="775" cy="225" r="8"/></g>
+  <text x="600" y="340" text-anchor="middle" fill="#748096" font-size="18">拖动圆点创建连线 · 点击连线可断开</text>
+ </g>
+</svg>
