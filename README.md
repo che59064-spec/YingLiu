@@ -1,12 +1,18 @@
-# 映流 YingLiu
+# 映流 YingLiu · ComfyUI 无限画布
 
 把 ComfyUI 工作流放进中文无限画布，用卡片、素材和连线编排图片与视频创作。
 
 支持多个独立画布、素材收纳、视频片段拼接、专业模式同步，以及可自行配置 AI API 的双语提示词优化。图片和视频生成仍由你自己的 ComfyUI 执行。
 
+## 软件界面
+
+![映流画布界面预览](docs/assets/canvas-preview.png)
+
+*基于早期版本界面截图进行隐私处理的预览图；示例内容仅用于说明，当前版本界面可能有所不同。*
+
 ![映流启动界面预览](docs/assets/startup.png)
 
-*启动界面预览；以下流程图为功能示意，不是实际画布截图。*
+## 创作流程
 
 ![从导入工作流到保存作品的流程示意图](docs/assets/workflow.svg)
 
@@ -20,7 +26,7 @@
 
 ## 开始使用
 
-在 [Releases](../../releases) 下载 Windows 便携包，或下载源码自行构建。便携包不包含模型、ComfyUI 或 Python；首次使用前请准备以下依赖。
+在 [Releases](https://github.com/che59064-spec/YingLiu-ComfyUI-Canvas/releases) 下载 Windows 便携包，或下载源码自行构建。便携包不包含模型、ComfyUI 或 Python；首次使用前请准备以下依赖。
 
 需要 Python 3.10 或以上版本。画布后台只使用 Python 标准库，无需额外安装 Python 包。生成图片、视频需要自行安装并启动 [ComfyUI](https://github.com/Comfy-Org/ComfyUI)，以及工作流所需节点和模型；视频拼接、视频参考抽帧还需要 FFmpeg 和 ffprobe 在 PATH 中。
 
