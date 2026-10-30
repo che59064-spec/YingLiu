@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+<title id="title">素材与作品分区示意</title><desc id="desc">右侧面板可搜索筛选素材和生成结果，并拖到画布使用。</desc>
+<rect width="1200" height="450" rx="28" fill="#f1f3f8"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="35" y="25" width="480" height="400" rx="24" fill="#fff" stroke="#dce2ec" stroke-width="2"/>
+<text x="65" y="69" fill="#212b3a" font-size="24" font-weight="700">素材与作品</text><text x="480" y="69" text-anchor="end" fill="#8290a2" font-size="18">详细设置</text>
+<rect x="65" y="93" width="420" height="46" rx="14" fill="#f2f4f8"/><text x="84" y="123" fill="#8a96a7" font-size="18">⌕  搜索素材名称</text>
+<g font-size="17" text-anchor="middle"><rect x="65" y="153" width="70" height="37" rx="12" fill="#263040"/><text x="100" y="177" fill="#fff">全部</text><text x="177" y="177" fill="#65738a">生成</text><text x="247" y="177" fill="#65738a">图片</text><text x="317" y="177" fill="#65738a">视频</text></g>
+<g><rect x="65" y="207" width="420" height="72" rx="15" fill="#f7f8fb"/><rect x="78" y="218" width="50" height="50" rx="11" fill="#e0e5ed"/><text x="146" y="250" fill="#425169" font-size="19">图片素材</text><rect x="65" y="289" width="420" height="72" rx="15" fill="#f7f8fb"/><rect x="78" y="300" width="50" height="50" rx="11" fill="#e0e5ed"/><text x="146" y="332" fill="#425169" font-size="19">生成的视频</text></g>
+<text x="70" y="398" fill="#7d8a9a" font-size="18">＋ 上传</text><text x="470" y="398" text-anchor="end" fill="#7d8a9a" font-size="18">↻ 刷新</text>
+<text x="565" y="86" fill="#1f2938" font-size="27" font-weight="700">③ 素材与作品</text>
+<text x="565" y="137" fill="#4d5d72" font-size="20">入口：展开画布右侧的素材面板。</text>
+<text x="565" y="185" fill="#4d5d72" font-size="20">查找：按名称搜索，或按类型筛选。</text>
+<text x="565" y="233" fill="#4d5d72" font-size="20">复用：把素材或作品拖回画布。</text>
+<text x="565" y="281" fill="#4d5d72" font-size="20">收纳：将画布中的媒体拖到右侧。</text>
+<text x="565" y="342" fill="#7c8899" font-size="17">示意图 · 不包含个人素材</text>
+</g></svg>

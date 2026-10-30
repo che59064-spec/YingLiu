@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+<title id="title">任务记录分区示意</title><desc id="desc">点击顶部任务按钮查看生成状态和队列，并可定位到任务卡片。</desc>
+<rect width="1200" height="450" rx="28" fill="#f1f3f8"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<rect x="35" y="25" width="480" height="400" rx="24" fill="#fff" stroke="#dce2ec" stroke-width="2"/>
+<rect x="300" y="44" width="175" height="42" rx="14" fill="#273143"/><text x="387" y="72" text-anchor="middle" fill="#fff" font-size="19">◷ 任务</text>
+<path d="M387 91V111" stroke="#9baabd" stroke-width="2"/>
+<rect x="65" y="112" width="420" height="263" rx="18" fill="#f7f8fb" stroke="#e0e5ee"/>
+<text x="87" y="148" fill="#273143" font-size="22" font-weight="700">任务记录</text><text x="461" y="148" text-anchor="end" fill="#7f8b9c" font-size="16">本机串行运行</text>
+<rect x="84" y="166" width="382" height="75" rx="14" fill="#fff"/><text x="103" y="195" fill="#344155" font-size="19">生成任务</text><text x="103" y="224" fill="#6e7d91" font-size="17">正在生成 · 60%</text>
+<rect x="84" y="251" width="382" height="75" rx="14" fill="#fff"/><text x="103" y="280" fill="#344155" font-size="19">生成任务</text><text x="103" y="309" fill="#6e7d91" font-size="17">已完成</text>
+<text x="565" y="86" fill="#1f2938" font-size="27" font-weight="700">④ 任务记录</text>
+<text x="565" y="137" fill="#4d5d72" font-size="20">入口：点击顶部“任务”按钮。</text>
+<text x="565" y="185" fill="#4d5d72" font-size="20">状态：查看等待、生成进度或失败。</text>
+<text x="565" y="233" fill="#4d5d72" font-size="20">结果：完成后可在画布和素材栏查看。</text>
+<text x="565" y="281" fill="#4d5d72" font-size="20">定位：点击任务，跳转到对应卡片。</text>
+<text x="565" y="342" fill="#7c8899" font-size="17">示意图 · 状态和数量仅作展示</text>
+</g></svg>
